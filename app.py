@@ -14,7 +14,7 @@ dff['cumsum'] = dff['count'].cumsum()
 dft = pd.read_csv('tourist_data_csv.csv', index_col=0)
 dft = dft.dropna()
 
-mapbox_access_token = "pk.eyJ1IjoibWF6YXJpbW9ubyIsImEiOiJjanA5Y3NnYzYwMmJmM3BsZDRva2plYTQ0In0.vlsrPy60tmdPB0tbUmtoTQ"
+mapbox_access_token = "YOUR-TOKEN"
 app = dash.Dash(__name__)
 
 server = app.server 
