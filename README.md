@@ -7,6 +7,7 @@
 - そこで、ヤフーのAPIを使って住所を経度緯度データにし、可視化しました。     
 - アプリは以下のリンク先にあります。    
 - https://my-dash-kyoto.herokuapp.com/
+- アプリのコードは[app.py](https://github.com/mazarimono/urban_data_challenge_kyotohotel/blob/master/app.py)です
 - 加工後のデータは[kyoto_hotel_comp1.csv](https://github.com/mazarimono/urban_data_challenge_kyotohotel/blob/master/kyoto_hotel_comp1.csv)となっています。     
 - 年別の申請件数と累積施設件数はkyoto_hotel_comp1.csvを加工して作っています。
 - その後、京都の旅行者数と宿泊者数がわかると、それと宿泊施設の数のデータを比較して、その増加の寄与がわかるので見てみましたが、残念ながら爆発的に宿泊施設が増加した影響は分からずに、調査終了となりました。     
